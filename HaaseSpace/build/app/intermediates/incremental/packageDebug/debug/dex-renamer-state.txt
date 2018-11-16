@@ -1,0 +1,4 @@
+#Fri Oct 12 11:45:32 CDT 2018
+base.0=/Users/compsci/Desktop/Haase/flutterprojects/quiz2/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

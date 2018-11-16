@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
+        "source": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/android/app/src/main/res/drawable/launch_background.xml"
+    },
+    {
+        "merged": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
+        "source": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/android/app/src/main/res/drawable/launch_background.xml"
+    },
+    {
+        "merged": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/CompSci/Desktop/Breitenstein/flutterprojects/quiz/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/compsci/Desktop/Haase/flutterprojects/quiz2/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
