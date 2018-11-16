@@ -20,9 +20,9 @@ class QuizPageState extends State<QuizPage> {
   Quiz quiz = new Quiz([
     new Question("The Sun is a ", "star", "star", "sun", "gas planet", "moon"),
     new Question("The planet closest to the Sun is ", "Mercury", "Mercury", "Venus", "Earth", "Mars"),
-    new Question.trueFalse("The planet closest to the Sun is Mercury", "true", "true", "false")
+    new Question.trueFalse("The planet closest to the Sun is Mercury", "true", "true", "false"),
+    new Question.trueFalse("The planet farthest from the Sun is Mars", "false", "true", "false"),
     /*, 
-    new Question("The planet farthest from the Sun is Mars", false),
     new Question("Earth is in the Milky Way galaxy", true),
     new Question("Astronomers study the ocean", false),
     new Question("Jupiter is known as the 'Red Planet'", true),
