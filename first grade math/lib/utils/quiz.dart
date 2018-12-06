@@ -10,12 +10,14 @@ class Quiz {
   }
   List<Question> get questions => _questions;
   int get length => _questions.length;
+  int numQuestions = 4;
+
   int get questionNumber => _currentQuestionIndex+1;
   int get score => _score;
 
   Question get nextQuestion {
     _currentQuestionIndex++;
-    if (_currentQuestionIndex >= length) return null;
+    if (_currentQuestionIndex >= numQuestions) return null;
     return _questions[_currentQuestionIndex];
   }
 

@@ -18,29 +18,28 @@ class QuizPageState extends State<QuizPage> {
 
   Question currentQuestion;
   Quiz quiz = new Quiz([
+    /*
     new Question("The Sun is a ", "star", "star", "sun", "gas planet", "moon"),
     new Question("The planet closest to the Sun is ", "Mercury", "Mercury", "Venus", "Earth", "Mars"),
-    new Question.trueFalse("The planet closest to the Sun is Mercury", "true", "true", "false"),
-    new Question.trueFalse("The planet farthest from the Sun is Mars", "false", "true", "false"),
-    /*, 
-    new Question("Earth is in the Milky Way galaxy", true),
-    new Question("Astronomers study the ocean", false),
-    new Question("Jupiter is known as the 'Red Planet'", true),
-    new Question("The Sun is a planet", false),
-    new Question("Craters are deep holes found on the Moon", true),
-    new Question("It takes the Earth one year to rotate around the Sun", true),
-    new Question("Earth orbits around the Moon", false),
-    new Question("Gravity keeps Earth in orbit", true),
-    new Question("Your mass changes in space", false),
-    new Question("Uranus is the smallest planet in the galaxy", false),
-    new Question("Neptune has rings", true),
-    new Question("Astronauts have been on Mars", false),
-    new Question("Pluto is a planet", false),
-    new Question("A Moon  orbiting another Moon is a Moonmoon", true),
-    new Question("Saturn is the largest planet in the galaxy", false),
-    new Question("The Sun is the closest star to Earth", true),
-    new Question("Earth is the only planet with gravity", true)
+    new Question("The planet farthest from the Sun is", "Neptune", "Neptune", "Uranus", "Saturn", "Jupiter"),
+    new Question("Earth is in what galaxy?", "Milky Way", "Milky Way", "North Star", "Big Dipper", "Snickers"),
+    new Question("Astronomers study what?", "Space", "Space", "Oceans", "Mountains", "Insects"),
+    new Question("Jupiter is known as the what?", "Red Planet", "Ring Planet", "Blue Planet", "Red Planet", "Last Planet"),
+    new Question("The Sun is a what?", "Star", "Star", "Planet", "Asteroid", "Sun"),
+    new Question("What do you call deep holes found on the Moon?", "Craters", "Craters", "Cheese", "Meteorites", "Pits"),
+    new Question("It takes the Earth how long to rotate around the Sun?", "365 days", "365 days", "30 days", "180 days", "360 days"),
+    new Question("Earth orbits around what?", "Sun", "Sun", "Moon", "Gravity", "Solar System"),
     */
+    new Question.trueFalse("Gravity keeps Earth in orbit", "true", "true", "false"),
+    //new Question.trueFalse("Your mass changes in space", "false", "true", "false"),
+    //new Question.trueFalse("Uranus is the smallest planet in the galaxy", "false", "true", "false"),
+    new Question.trueFalse("Neptune has rings", "true", "true", "false"),
+    //new Question.trueFalse("Astronauts have been on Mars", "false", "true", "false"),
+    //new Question.trueFalse("Pluto is a planet", "false", "true", "false"),
+    new Question.trueFalse("A Moon  orbiting another Moon is a Moonmoon", "true", "true", "false"),
+    //new Question.trueFalse("Saturn is the largest planet in the galaxy", "false", "true", "false"),
+    new Question.trueFalse("The Sun is the closest star to Earth", "true", "true", "false"),
+    //new Question.trueFalse("Earth is the only planet with gravity", "false", "true", "false")
   ]);
 
   String questionText;
@@ -109,8 +108,8 @@ class QuizPageState extends State<QuizPage> {
         overlayShouldBeVisible == true ? new CorrectWrongOverlay(
           isCorrect,
           () {
-            if (quiz.length == questionNumber){
-              Navigator.of(context).pushAndRemoveUntil(new MaterialPageRoute(builder: (BuildContext context) => new ScorePage(quiz.score, quiz.length)), (Route route) => route == null);
+            if (quiz.numQuestions == questionNumber){
+              Navigator.of(context).pushAndRemoveUntil(new MaterialPageRoute(builder: (BuildContext context) => new ScorePage(quiz.score, quiz.numQuestions)), (Route route) => route == null);
               return;
             }
             currentQuestion = quiz.nextQuestion;
